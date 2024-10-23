@@ -37,7 +37,7 @@ The ANN model I developed was able to classify these species with **86%** accura
 
 **Fish Photo Samples**
 
-![Fish Photo Samples](https://github.com/user-attachments/assets/eea83954-6dc0-4453-8a39-2f184eb806e8)
+![Fish Photo Samples](![image](https://github.com/user-attachments/assets/1aa25a36-3cae-4155-b961-596cae72557f))
 
 **Confusion Matrix**
 
