@@ -31,60 +31,207 @@ The ANN model I developed was able to classify these species with **86%** accura
 
 **FROM WITHIN THE PROJECT**
 
+**Fishes Frequency Pie Chart**
+
 ![Fishes Frequency](https://github.com/user-attachments/assets/fd2b0120-dac2-4dfe-a351-2cf5ded82dd5)
+
+**Fish Photo Samples**
 
 ![Fish Photo Samples](https://github.com/user-attachments/assets/eea83954-6dc0-4453-8a39-2f184eb806e8)
 
-Training process:
-Epoch 1/10
-accuracy: 0.4392 - loss: 1.6501 - val_accuracy: 0.5347 - val_loss: 1.3120
-
-Epoch 2/10
-accuracy: 0.7953 - loss: 0.6552 - val_accuracy: 0.6778 - val_loss: 0.9207
-
-Epoch 3/10
-accuracy: 0.8668 - loss: 0.4191 - val_accuracy: 0.7340 - val_loss: 0.8049
-
-Epoch 4/10
-accuracy: 0.9158 - loss: 0.2822 - val_accuracy: 0.8549 - val_loss: 0.4004
-
-Epoch 5/10
-accuracy: 0.9412 - loss: 0.1893 - val_accuracy: 0.8153 - val_loss: 0.5502
-
-Epoch 6/10
-accuracy: 0.9483 - loss: 0.1639 - val_accuracy: 0.8632 - val_loss: 0.3966
-
-Epoch 7/10
-accuracy: 0.9679 - loss: 0.1117 - val_accuracy: 0.8160 - val_loss: 0.5323
-
-Epoch 8/10
-accuracy: 0.9584 - loss: 0.1241 - val_accuracy: 0.8938 - val_loss: 0.3483
-
-Epoch 9/10
-accuracy: 0.9746 - loss: 0.0793 - val_accuracy: 0.8736 - val_loss: 0.4270
-
-Epoch 10/10
-accuracy: 0.9756 - loss: 0.0824 - val_accuracy: 0.8694 - val_loss: 0.4012
-
 **Confusion Matrix**
+
 ![Confusion Matrix](https://github.com/user-attachments/assets/685b2573-3094-4255-a3e6-c0705b113ebc)
 
 **Result table**
-              precision    recall  f1-score   support
-           0       0.70      1.00      0.82       211
-           1       0.98      0.65      0.78       204
-           2       0.94      0.89      0.91       195
-           3       0.97      0.93      0.95       191
-           4       0.97      0.82      0.89       201
-           5       0.90      0.88      0.89       179
-           6       0.89      0.93      0.91       209
-           7       0.84      0.73      0.78       207
-           8       0.75      0.92      0.82       203
-    accuracy                           0.86      1800
-    macro avg      0.88      0.86      0.86      1800
-   weighted avg    0.88      0.86      0.86      1800
+<table>
+
+<tr>
+
+<th></th>
+
+<th>precision</th>
+
+<th>recall</th>
+
+<th>f1-score</th>
+
+<th>support</th>
+
+</tr>
+
+<tr>
+
+<td>0</td>
+
+<td>0.70</td>
+
+<td>1.00</td>
+
+<td>0.82</td>
+
+<td>211</td>
+
+</tr>
+
+<tr>
+
+<td>1</td>
+
+<td>0.98</td>
+
+<td>0.65</td>
+
+<td>0.78</td>
+
+<td>204</td>
+
+</tr>
+
+<tr>
+
+<td>2</td>
+
+<td>0.94</td>
+
+<td>0.89</td>
+
+<td>0.91</td>
+
+<td>195</td>
+
+</tr>
+
+<tr>
+
+<td>3</td>
+
+<td>0.97</td>
+
+<td>0.93</td>
+
+<td>0.95</td>
+
+<td>191</td>
+
+</tr>
+
+<tr>
+
+<td>4</td>
+
+<td>0.97</td>
+
+<td>0.82</td>
+
+<td>0.89</td>
+
+<td>201</td>
+
+</tr>
+
+<tr>
+
+<td>5</td>
+
+<td>0.90</td>
+
+<td>0.88</td>
+
+<td>0.89</td>
+
+<td>179</td>
+
+</tr>
+
+<tr>
+
+<td>6</td>
+
+<td>0.89</td>
+
+<td>0.93</td>
+
+<td>0.91</td>
+
+<td>209</td>
+
+</tr>
+
+<tr>
+
+<td>7</td>
+
+<td>0.84</td>
+
+<td>0.73</td>
+
+<td>0.78</td>
+
+<td>207</td>
+
+</tr>
+
+<tr>
+
+<td>8</td>
+
+<td>0.75</td>
+
+<td>0.92</td>
+
+<td>0.82</td>
+
+<td>203</td>
+
+</tr>
+
+<tr>
+
+<td>accuracy</td>
+
+<td></td>
+
+<td></td>
+
+<td>0.86</td>
+
+<td>1800</td>
+
+</tr>
+
+<tr>
+
+<td>macro avg</td>
+
+<td>0.88</td>
+
+<td>0.86</td>
+
+<td>0.86</td>
+
+<td>1800</td>
+
+</tr>
+
+<tr>
+
+<td>weighted avg</td>
+
+<td>0.88</td>
+
+<td>0.86</td>
+
+<td>0.86</td>
+
+<td>1800</td>
+
+</tr>
+
+</table>
 
 **Loss and Accuracy Chart**
+
 ![Loss and Accuracy Chart](https://github.com/user-attachments/assets/58d687d1-a6de-4d99-970c-65fcba6d925f)
 
 
