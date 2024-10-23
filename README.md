@@ -15,21 +15,21 @@ In my project, I trained on a large dataset collected from the Black Sea and the
 * trout
 It contains nine different marine creatures from different species.
 
-The ANN model I developed was able to classify these species with 86% accuracy. This result shows that the model can also work effectively in real-world applications.
+The ANN model I developed was able to classify these species with **86%** accuracy. This result shows that the model can also work effectively in real-world applications.
 
-Tasks within the Scope of the Project
+**Tasks within the Scope of the Project**
 1. Collection of fish dataset, exploratory analysis and visualizations, pre-processing
 2. Designing and training multi-layer ANN architecture
 3. Monitoring churn and accuracy metrics
 4. Evaluating the model's performance on test data
 5. Sharing the project in the GitHub repository and receiving relevant feedback
 
-Technologies and Tools
+**Technologies and Tools**
 1. Python, NumPy, Pandas, Matplotlib, Scikit-learn
 2. TensorFlow and Keras deep learning libraries
 3. Jupyter Notebook, Kaggle, Git, GitHub
 
-From within the project:
+**FROM WITHIN THE PROJECT**
 
 ![Fishes Frequency](https://github.com/user-attachments/assets/fd2b0120-dac2-4dfe-a351-2cf5ded82dd5)
 
@@ -38,30 +38,39 @@ From within the project:
 Training process:
 Epoch 1/10
 accuracy: 0.4392 - loss: 1.6501 - val_accuracy: 0.5347 - val_loss: 1.3120
+
 Epoch 2/10
 accuracy: 0.7953 - loss: 0.6552 - val_accuracy: 0.6778 - val_loss: 0.9207
+
 Epoch 3/10
 accuracy: 0.8668 - loss: 0.4191 - val_accuracy: 0.7340 - val_loss: 0.8049
+
 Epoch 4/10
 accuracy: 0.9158 - loss: 0.2822 - val_accuracy: 0.8549 - val_loss: 0.4004
+
 Epoch 5/10
 accuracy: 0.9412 - loss: 0.1893 - val_accuracy: 0.8153 - val_loss: 0.5502
+
 Epoch 6/10
 accuracy: 0.9483 - loss: 0.1639 - val_accuracy: 0.8632 - val_loss: 0.3966
+
 Epoch 7/10
 accuracy: 0.9679 - loss: 0.1117 - val_accuracy: 0.8160 - val_loss: 0.5323
+
 Epoch 8/10
 accuracy: 0.9584 - loss: 0.1241 - val_accuracy: 0.8938 - val_loss: 0.3483
+
 Epoch 9/10
 accuracy: 0.9746 - loss: 0.0793 - val_accuracy: 0.8736 - val_loss: 0.4270
+
 Epoch 10/10
 accuracy: 0.9756 - loss: 0.0824 - val_accuracy: 0.8694 - val_loss: 0.4012
 
+**Confusion Matrix**
 ![Confusion Matrix](https://github.com/user-attachments/assets/685b2573-3094-4255-a3e6-c0705b113ebc)
 
-Result table:
+**Result table**
               precision    recall  f1-score   support
-
            0       0.70      1.00      0.82       211
            1       0.98      0.65      0.78       204
            2       0.94      0.89      0.91       195
@@ -73,9 +82,9 @@ Result table:
            8       0.75      0.92      0.82       203
     accuracy                           0.86      1800
     macro avg      0.88      0.86      0.86      1800
-    weighted avg    0.88      0.86      0.86      1800
+   weighted avg    0.88      0.86      0.86      1800
 
-
+**Loss and Accuracy Chart**
 ![Loss and Accuracy Chart](https://github.com/user-attachments/assets/58d687d1-a6de-4d99-970c-65fcba6d925f)
 
 
